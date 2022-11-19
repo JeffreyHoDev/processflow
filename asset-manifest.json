@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/processflow/static/css/main.6ed8510f.css",
+    "main.js": "/processflow/static/js/main.cc817296.js",
+    "static/js/787.4f0b407c.chunk.js": "/processflow/static/js/787.4f0b407c.chunk.js",
+    "index.html": "/processflow/index.html",
+    "static/media/arrow-return-right.svg": "/processflow/static/media/arrow-return-right.5cd6df4073e121b1284f7a87e286e9b5.svg",
+    "static/media/caret-right-fill.svg": "/processflow/static/media/caret-right-fill.6955d0c2269f320f061deae4227277a3.svg",
+    "main.6ed8510f.css.map": "/processflow/static/css/main.6ed8510f.css.map",
+    "main.cc817296.js.map": "/processflow/static/js/main.cc817296.js.map",
+    "787.4f0b407c.chunk.js.map": "/processflow/static/js/787.4f0b407c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ed8510f.css",
+    "static/js/main.cc817296.js"
+  ]
+}
