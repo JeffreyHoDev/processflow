@@ -1,12 +1,16 @@
 import './App.scss';
 import Sidebar from './components/sidebar/sidebar.component';
-import SoftwareProcessPage from './pages/softwareprocess.page';
+import ProcessPage from './pages/process.page';
+
+import { useState } from 'react'
 
 const App = () => {
+
+  const [page, setPage] = useState('software_development')
   return (
     <div className="App">
-      <Sidebar />
-      <SoftwareProcessPage />
+      <Sidebar setPage={setPage} page={page} />
+      <ProcessPage page={page}/>
     </div>
   );
 }

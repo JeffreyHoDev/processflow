@@ -1,13 +1,14 @@
 import './navitem.styles.scss'
 
-import { useState } from 'react'
+const NavItem = ({ category, page, setPage, path }) => {
 
-const NavItem = ({ category }) => {
-
-    const [clicked, setClicked] = useState(false)
+    let style = page === path ? {
+        backgroundColor: "white",
+        color: "black"
+    }: null
 
     return (
-        <div className='nav-item'>{category}</div>
+        <div className='nav-item' style={style} onClick={() => setPage(path)}><b>{category}</b></div>
     )
 }
 

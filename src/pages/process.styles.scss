@@ -1,0 +1,38 @@
+.page-container {
+    width: 90%;
+    padding: 1%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .8s;
+
+    &:hover {
+        transform: scale(105%);
+        cursor: url('../assets/center_of_gravity.png'), auto;
+    }
+}
+
+.submodule {
+    margin: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    transition: all .8s;
+
+    .submodule-list-item {
+        background-color: yellow;
+        min-width: max-content;
+        padding: .9rem;
+        color: black;
+        box-shadow: 1px 1px 5px black;
+        
+
+    }
+    &:hover {
+        transform: scale(105%);
+        cursor: url('../assets/center_of_gravity.png'), auto;
+    }
+}
