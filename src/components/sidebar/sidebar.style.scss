@@ -1,0 +1,13 @@
+.sidebar-container {
+
+    width: 10%;
+    min-height: 100vh;
+    background-color: red;
+
+    .sidenavbar {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
